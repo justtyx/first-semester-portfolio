@@ -1,0 +1,136 @@
+@media (min-width: 1024px) {
+    .styletile {
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: 40px 0;
+    }
+
+    .colours {
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0;
+    }
+
+    .colours img {
+        width: 80px;
+        height: auto;
+        margin: 20px 0;
+    }
+
+    .frame {
+        width: 350px;
+        height: auto;
+    }
+
+    .roboto p {
+        margin: 5px 0;
+    }
+
+    .font {
+        font-size: 40px;
+    }
+
+    .heading {
+        font-size: 24px;
+    }
+
+    .paragaph {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 720px) and (max-width: 1024px) {
+    .styletile {
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: 40px;
+    }
+
+    .colours {
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0;
+    }
+
+    .colours img {
+        width: 80px;
+        height: auto;
+        margin: 20px 0;
+    }
+
+    .frame {
+        width: 350px;
+        height: auto;
+    }
+
+    .roboto p {
+        margin: 5px 0;
+    }
+
+    .font {
+        font-size: 40px;
+    }
+
+    .heading {
+        font-size: 24px;
+    }
+
+    .paragaph {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 720px) {
+    .styletile {
+        flex-direction: column;
+        align-content: flex-start;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .colours {
+        width: 85vw;
+        align-content: center;
+        margin-bottom: 20px;
+    }
+
+    .colours img {
+        width: 18vw;
+        height: auto;
+    }
+
+    .frame {
+        width: 87vw;
+        height: auto;
+    }
+
+    .font {
+        font-size: 7vw;
+    }
+
+    .heading {
+        font-size: 5vw;
+    }
+
+    #the-size {
+        font-size: 4vw;
+    }
+}
+
+.styletile {
+    display: flex;
+}
+
+.colours {
+    display: flex;
+    justify-content: space-between;
+}
+
+.roboto p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.font {
+    font-weight: bold;
+    text-transform: uppercase;
+}

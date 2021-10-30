@@ -1,0 +1,285 @@
+@media (min-width: 1024px) {
+    body {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) 3fr repeat(2, 1fr);
+    }
+
+    header {
+        grid-column: 1/6;
+        margin: 2vw 5vw 0;
+    }
+
+    main {
+        grid-column: 3/4;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 35px;
+        margin-bottom: 30px;
+        padding-top: 20px;
+    }
+
+    p {
+        font-size: 24px;
+        margin: 50px 0 20px;
+    }
+
+    .read_more {
+        font-size: 14px;
+        margin-top: 0;
+    }
+
+
+    .read_more:hover {
+        color: #C69696;
+    }
+
+    .introduction {
+        margin: 80px 0 50px;
+    }
+
+    .logo {
+        width: 6vw;
+        height: auto;
+    }
+
+    .name {
+        width: 12vw;
+        height: auto;
+        padding-top: 17px;
+        margin-left: 20px;
+    }
+
+    .cards {
+        margin: 0 3vw;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .card-img {
+        width: 15w;
+        height: 21vw;
+    }
+
+    .card-img:hover {
+        opacity: 0.9;
+        box-shadow: 7px 7px 7px grey;
+    }
+
+    footer {
+        align-items: center;
+        grid-column: 2/5;
+    }
+
+    .icons img:hover {
+        opacity: 0.75;
+    }
+
+}
+
+@media (min-width: 720px) and (max-width: 1024px) {
+    header {
+        margin: 4vw 7vw;
+    }
+
+    .logo {
+        width: 10vw;
+        height: auto;
+    }
+
+    .middle {
+        margin: 5vw 10vw;
+        font-size: 18px;
+    }
+
+    .introduction {
+        flex-direction: column;
+        margin: 7vw 0;
+    }
+
+    #theme {
+        margin: 0;
+        margin-bottom: 2vw;
+    }
+
+    .read_more {
+        font-size: 14px;
+    }
+
+    .scroll {
+        margin: 10vw 0 5vw;
+    }
+    
+    .cards {
+        margin: 0 20vw;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .card-img {
+        width: 20vw;
+        height: 27vw;
+        margin: 2vw;
+    }
+
+    .name {
+        width: 30vw;
+        height: auto;
+        margin: auto;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0 20px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 720px) {
+    header {
+        margin: 4vw 7vw;
+    }
+
+    .logo {
+        width: 20vw;
+        height: auto;
+    }
+
+    .middle {
+        margin-bottom: 5vw;
+    }
+
+    .introduction {
+        flex-direction: column;
+        margin: 7vw 0;
+    }
+
+    #theme {
+        margin: 0;
+        margin-bottom: 2vw;
+    }
+
+    .read_more {
+        font-size: 14px;
+    }
+
+    .scroll {
+        margin: 10vw 0 5vw;
+    }
+
+    .name {
+        width: 40vw;
+        height: auto;
+    }
+    
+     .cards {
+        margin: 2vw 12vw;
+        flex-wrap: wrap;
+         
+        justify-content: space-around;
+    }
+
+    .card-img {
+        width: 30vw;
+        height: 41vw;
+        margin: 2vw;
+    }
+    
+    figcaption {
+        font-size: 14px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0 20px;
+    }
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #C69696;
+    font-family: 'Roboto Mono', monospace;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2 {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.middle {
+    text-align: center;
+}
+
+.read_more {
+    text-align: center;
+    color: #A76D6D;
+    text-transform: uppercase;
+}
+
+.introduction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+}
+
+.card-img {
+    border-radius: 5%;
+    box-shadow: 10px 10px 10px grey;
+}
+
+figure {
+    margin: 1vw;
+    text-align: center;
+}
+
+figcaption {
+    color: #000;
+    font-size: 18px;
+    margin-top: 0.5vw;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 14px;
+    color: #C69696;
+    margin: 0;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    width: 70px;
+    height: auto;
+}
+
+footer img {
+    width: 20px;
+    height: auto;
+}

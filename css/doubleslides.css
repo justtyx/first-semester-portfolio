@@ -1,0 +1,60 @@
+.mySlides1,
+.mySlides2 {
+    display: none
+}
+
+.mySlides1 img,
+.mySlides2 img {
+    width: 50vw;
+    height: auto;
+    animation: fade 0.7s ease-in;
+    border-radius: 0 0 5px 5px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    width: 50vw;
+    position: relative;
+    margin: -1px auto 40px;
+}
+
+/* Next & previous buttons */
+
+.prev img,
+.next img {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: 1vw;
+    height: auto;
+    padding: 16px;
+    margin-top: -22px;
+    transition: 0.6s ease;
+}
+
+/* Position the "next button" to the right */
+.next img {
+    right: 0;
+}
+
+/* On hover, add a grey background color */
+.prev:hover,
+.next:hover {
+    opacity: 0.4;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}

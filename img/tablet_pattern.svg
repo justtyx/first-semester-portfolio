@@ -1,0 +1,50 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="769.34" height="1076" viewBox="0 0 769.34 1076">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ceb293;
+      }
+
+      .cls-2 {
+        fill: #ccaa8f;
+      }
+
+      .cls-3 {
+        fill: #d6c0ab;
+      }
+
+      .cls-4 {
+        fill: #efd7c2;
+      }
+
+      .cls-5 {
+        fill: #333;
+      }
+
+      .cls-6 {
+        fill: #c69696;
+      }
+
+      .cls-7 {
+        fill: #e9d9cb;
+      }
+
+      .cls-8 {
+        fill: #f6f0eb;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" y="52" width="768" height="220"/>
+  <rect class="cls-2" y="272" width="386" height="329"/>
+  <rect class="cls-3" x="385.34" y="272" width="382.66" height="328.8"/>
+  <rect class="cls-4" y="600.8" width="768" height="404.94"/>
+  <rect class="cls-1" x="0.67" y="1006" width="768.66" height="70"/>
+  <g>
+    <rect class="cls-5" x="0.66" width="768.68" height="52.23"/>
+    <g>
+      <ellipse class="cls-6" cx="43.65" cy="25.98" rx="10.24" ry="9.99"/>
+      <ellipse class="cls-7" cx="81.52" cy="25.98" rx="10.24" ry="9.99"/>
+      <ellipse class="cls-8" cx="118.37" cy="25.98" rx="10.24" ry="9.99"/>
+    </g>
+  </g>
+</svg>

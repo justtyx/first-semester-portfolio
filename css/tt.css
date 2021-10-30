@@ -1,0 +1,100 @@
+@media (min-width: 1024px) {
+    .styletile {
+        padding: 40px 0;
+        margin: 40px 0;
+        grid-column: 1/6;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) 3fr repeat(2, 1fr);
+    }
+
+    .flex_1 img {
+        height: 25vw;
+        width: auto;
+    }
+
+    .flex_2 img {
+        height: 120px;
+        width: auto;
+    }
+
+}
+
+@media (min-width: 720px) and (max-width: 1024px) {
+    .styletile {
+        padding: 40px 0;
+        margin: 40px 0;
+    }
+
+    .flex_1 img {
+        height: 30vw;
+        width: auto;
+    }
+
+    .flex_2 img {
+        height: 10vw;
+        ;
+        width: auto;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 720px) {
+
+    .styletile {
+        margin: 20px 0;
+        padding: 20px 0;
+    }
+
+    .flex_1,
+    .styletile {
+        flex-direction: column;
+    }
+
+
+    .flex_1 img {
+        height: 50vw;
+        width: auto;
+    }
+
+    .flex_2 img {
+        height: 15vw;
+        width: auto;
+    }
+}
+
+.styletile {
+    background-color: #E9D9CB;
+}
+
+.flex_1,
+.flex_2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
